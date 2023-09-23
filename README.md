@@ -22,6 +22,10 @@
 - NP-complete
 - State space searching
 
+## Assignment
+
+1. [Sorting](Assignment/1.sort.md)
+
 ## How?
 
 1. solve exercise and problems of CLRS
