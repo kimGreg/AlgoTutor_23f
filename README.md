@@ -26,6 +26,12 @@
 
 1. [Sorting](Assignment/1.sort.md)
 
+## Problems
+
+2. [Getting Started](textbook/problems/2.pdf)
+3. [Growth of Functions](textbook/problems/3.pdf)
+4. [Divide-and-Conquer](textbook/problems/4.pdf)
+
 ## How?
 
 1. solve exercise and problems of CLRS
