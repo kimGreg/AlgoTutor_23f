@@ -22,6 +22,15 @@ void Algo::do_shell_sort(long long * arr, int n) {
   /// TODO: implement insert sort
 }
 
+void Algo::do_find_max_subarr_brute_force(int * arr, int n, int * ans){
+  /// TODO: implement insert sort
+}
+
+void Algo::do_find_max_subarr_recursive(int * arr, int n, int * ans){
+  /// TODO: implement insert sort
+}
+
+
 /* You Do Not Need To Read These Code */
 
 // for run algorithms
@@ -33,7 +42,9 @@ void Algo::run(TAlgo algo) {
     case shell_sort:
       _do_sort(algo);
       break;
-
+    case find_max_subarr_brute_force:
+    case find_max_subarr_recursive:
+      
     default:
       cerr << "Not such algorithm number : " << algo << endl;
   }
@@ -45,6 +56,8 @@ TAlgo Algo::string_to_TAlgo(string str) {
   if(str == "insert_sort") return insert_sort;
   if(str == "merge_sort") return merge_sort;
   if(str == "shell_sort") return shell_sort;
+  if(str == "find_max_subarr_brute_force") return find_max_subarr_brute_force;
+  if(str == "find_max_subarr_recursive") return find_max_subarr_recursive;
   return none;
 }
 
@@ -72,5 +85,28 @@ void Algo::_do_sort(TAlgo algo) {
   cout << "\n";
 
   // free variable
+  delete arr;
+}
+
+void _do_find_max_subarray(TAlgo algo){
+  int n, *arr;
+
+  // input
+  cin >> n;
+  arr = new int[n+20];
+  int ans[3];
+
+  for(int i=0; i<n; i++) cin >> arr[i];
+  switch (algo){
+    case find_max_subarr_brute_force:
+      Algo::do_find_max_subarr_brute_force(arr, n, ans); break;
+    case find_max_subarr_recursive:
+      Algo::do_find_max_subarr_recursive(arr, n, ans); break;
+    default:
+      break;
+  }
+
+  cout << ans[0] << " " << ans[1] << " " << ans[2] << endl;
+
   delete arr;
 }
