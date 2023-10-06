@@ -6,22 +6,6 @@
 
 매주 토요일 21:00 - 23:00 [Zoom Link](https://snu-ac-kr.zoom.us/j/92004523056?pwd=M3pWZ3NNTEthb1BtVTMwNGNSd1pvQT09)
 
-## What we cover?
-
-(문병로 교수님 기준)
-
-- Computational complexity
-- Sorting
-- Dynamic Programming
-- Selecting
-- Hashing
-- Disjoint set
-- Graph
-- Greedy algorithm
-- String algorihtm
-- NP-complete
-- State space searching
-
 ## Assignment
 
 1. [Sorting](Assignment/1.sort.md)
@@ -31,6 +15,37 @@
 2. [Getting Started](textbook/problems/2.pdf)
 3. [Growth of Functions](textbook/problems/3.pdf)
 4. [Divide-and-Conquer](textbook/problems/4.pdf)
+5. [Probabilistic Analysis and Randomized Algorithms](textbook/problems/5.pdf)
+6. [Heapsort](textbook/problems/6.pdf)
+7. Quick sort
+8. Sorting in Linear Time
+9. Medians and Order Statistics
+10. Elementary Data Structures
+11. Hash Tables
+12. Binary Search Tree
+13. Red-Black Trees
+14. Augmenting Data Structures
+15. Dynamic Programming
+16. Greedy Algorithms
+17. Amortized Analysis
+18. B-Trees
+19. ~Fibonacci Heaps~
+20. ~van Emde Boas Trees~
+21. Data Structures for Disjoint Sets
+22. Elementary Graph Algorithms
+23. Minimum Spanning Trees
+24. Single-Source Shortest Paths
+25. All-Pairs Shortest Paths
+26. Maximum Flow
+27. ~Multithreaded Algorithms~
+28. ~Matrix Operations~
+29. ~Linear Programming~
+30. ~Polynomials and the FFT~
+31. ~Number-Theoretic Algorithms~
+32. String Matching
+33. ~Computational Geometry~
+34. NP-Completeness
+35. ~Approximation Algorithms~
 
 ## How?
 
@@ -41,5 +56,3 @@
 ## 📕 Materials 
 
 - Introduction to Algorihtms (a.k.a. CLRS)
-- 쉽게 배우는 알고리즘 (문병로 저)
-- 수업 PPT
