@@ -12,20 +12,6 @@ class Testcase:
     input_path = os.path.join(self.inputs_path, tc_number)
     
     timeStarted = time.time()   
-
-    # parent=subprocess.Popen(f"{self.run_cmd} {self.run_arg} < {input_path}", shell=False, stdout=subprocess.PIPE)
-    # for _ in range(self.timeout*10): # sleep for 0.1 second
-    #     if parent.poll() is not None:  # process just ended
-    #       break
-    #     time.sleep(0.1)
-    # else:
-    #   # the for loop ended without break: timeout
-    #   parent = psutil.Process(parent.pid)
-    #   for child in parent.children(recursive=True):  # or parent.children() for recursive=False
-    #       child.kill()
-    #   parent.kill()
-    
-    # (res, err) = parent.communicate()
     
     try:
       input = open(input_path, 'rb')
