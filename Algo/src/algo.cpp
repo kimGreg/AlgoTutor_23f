@@ -30,6 +30,13 @@ void Algo::do_find_max_subarr_recursive(int * arr, int n, int * ans){
   /// TODO: implement insert sort
 }
 
+void Algo::do_build_max_heap_n(long long * arr, int n){
+  /// TODO: implement build heap
+}
+
+void Algo::do_build_max_heap_nlogn(long long * arr, int n){
+  /// TODO: implement build heap
+}
 
 /* You Do Not Need To Read These Code */
 
@@ -58,6 +65,8 @@ TAlgo Algo::string_to_TAlgo(string str) {
   if(str == "shell_sort") return shell_sort;
   if(str == "find_max_subarr_brute_force") return find_max_subarr_brute_force;
   if(str == "find_max_subarr_recursive") return find_max_subarr_recursive;
+  if(str == "build_max_heap_n") return build_max_heap_n;
+  if(str == "build_max_haep_nlogn") return build_max_heap_nlogn;
   return none;
 }
 
@@ -107,6 +116,28 @@ void _do_find_max_subarray(TAlgo algo){
   }
 
   cout << ans[0] << " " << ans[1] << " " << ans[2] << endl;
+
+  delete arr;
+}
+
+void _do_build_max_heap(TAlgo algo){
+  int n;
+  long long *arr;
+
+  // input
+  cin >> n;
+  arr = new long long[n+20];
+
+  for(int i=0; i<n; i++) cin >> arr[i];
+
+  switch (algo){
+    case build_max_heap_n:
+      Algo::do_build_max_heap_n(arr, n); break;
+    case build_max_heap_nlogn:
+      Algo::do_build_max_heap_nlogn(arr, n); break;
+    default:
+      break;
+  }
 
   delete arr;
 }
