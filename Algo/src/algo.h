@@ -13,6 +13,7 @@ enum TAlgo{
   insert_sort,
   merge_sort,
   shell_sort,
+  quick_sort,
   find_max_subarr_brute_force,
   find_max_subarr_recursive,
   build_max_heap_n,
@@ -28,6 +29,7 @@ namespace Algo{
   void do_insert_sort(long long * arr, int n);
   void do_merge_sort(long long * arr, int n);
   void do_shell_sort(long long * arr, int n);
+  void do_quick_sort(long long * arr, int n);
   void do_find_max_subarr_brute_force(int * arr, int n, int * ans);
   void do_find_max_subarr_recursive(int * arr, int n, int * ans);
   void do_build_max_heap_n(long long * arr, int n);
