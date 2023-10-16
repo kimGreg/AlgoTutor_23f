@@ -17,7 +17,7 @@
 4. [Divide-and-Conquer](textbook/problems/4.pdf)
 5. [Probabilistic Analysis and Randomized Algorithms](textbook/problems/5.pdf)
 6. [Heapsort](textbook/problems/6.pdf)
-7. Quick sort
+7. [Quicksort](textbook/problems/7.pdf)
 8. Sorting in Linear Time
 9. Medians and Order Statistics
 10. Elementary Data Structures
