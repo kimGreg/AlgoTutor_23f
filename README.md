@@ -20,7 +20,7 @@
 7. [Quicksort](textbook/problems/7.pdf)
 8. [Sorting in Linear Time](textbook/problems/8.pdf)
 9. [Medians and Order Statistics](textbook/problems/9.pdf)
-10. Elementary Data Structures
+10. [Elementary Data Structures](textbook/problems/10.pdf)
 11. Hash Tables
 12. Binary Search Tree
 13. Red-Black Trees
