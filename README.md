@@ -18,8 +18,8 @@
 5. [Probabilistic Analysis and Randomized Algorithms](textbook/problems/5.pdf)
 6. [Heapsort](textbook/problems/6.pdf)
 7. [Quicksort](textbook/problems/7.pdf)
-8. Sorting in Linear Time
-9. Medians and Order Statistics
+8. [Sorting in Linear Time](textbook/problems/8.pdf)
+9. [Medians and Order Statistics](textbook/problems/9.pdf)
 10. Elementary Data Structures
 11. Hash Tables
 12. Binary Search Tree
